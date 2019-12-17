@@ -20,7 +20,7 @@ int loInSub(int c[], int n)
 	int max = 1;
 	for(int i = 0; i < n; i ++)
 	{
-		max = max < c[i] ?c[i]:max;
+		max = max < maxAtNode[i] ?maxAtNode[i]:max;
 	}
 	return max;
 }
